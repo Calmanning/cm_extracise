@@ -56,22 +56,26 @@
     </style>
   </head>
   <body>
-    <h1>Mongo Note App</h1>
-    <div id="user-input">
-        <p>Title</p>
-        <input type="text" id="title" />
+    <h1>Get You Some Extra-cise</h1>
+    <div id="workout user-input">
+        <p>Workout Goal</p>
+        <input type="text" id="workoutTitle" />
       <br>
-        <p>Note</p>
-        <textarea id="note"></textarea>
+        <p>Exercises</p>
+        <textarea id="activity"></textarea>
       <div id="buttons">
         <div id="action-button">
-          <button id="make-new">Submit</button>
+          <button id="newExercise">Submit</button>
         </div>
-        <button id="clear-all">Delete All Notes</button>
+        
       </div>
     </div>
 
-    <div id="results"></div>
+    <div id="results">
+    <!-- This line is where the original clear button was -->
+    </div>
+    <button id="clear-all">Delete All Workouts</button>
+
     <script src="script.js"></script>
   </body>
 </html>
